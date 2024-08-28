@@ -1,0 +1,1140 @@
+[
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmaceneController",
+    "Method": "Editar",
+    "RelativePath": "api/Almacene/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Almacene",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmaceneController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Almacene/Eliminar/{IdAlmacen}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAlmacen",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmaceneController",
+    "Method": "Guardar",
+    "RelativePath": "api/Almacene/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Almacene",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmaceneController",
+    "Method": "Lista",
+    "RelativePath": "api/Almacene/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmaceneController",
+    "Method": "Obtener",
+    "RelativePath": "api/Almacene/Obtener/{IdAlmacen}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAlmacen",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmacenProducto",
+    "Method": "Editar",
+    "RelativePath": "api/AlmacenProducto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.RolPermiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmacenProducto",
+    "Method": "Eliminar",
+    "RelativePath": "api/AlmacenProducto/Eliminar/{IdRolPermiso}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdRolPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmacenProducto",
+    "Method": "Guardar",
+    "RelativePath": "api/AlmacenProducto/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.RolPermiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.AlmacenProducto",
+    "Method": "Lista",
+    "RelativePath": "api/AlmacenProducto/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.BusquedaColorController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/BusquedaColor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidadPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.BusquedaPermisoController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/BusquedaPermiso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidadPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.BusquedaProductoController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/BusquedaProducto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidadPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.BusquedaRolController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/BusquedaRol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidadPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreRol",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.BusquedaSubColorController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/BusquedaSubColor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidadPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.BusquedaTipoProductoController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/BusquedaTipoProducto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidadPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.BusquedaUsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/BusquedaUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidadPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreCompleto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.CategoriaController",
+    "Method": "Editar",
+    "RelativePath": "api/Categoria/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.CategoriaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Categoria/Eliminar/{IdCategoria}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.CategoriaController",
+    "Method": "Guardar",
+    "RelativePath": "api/Categoria/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.CategoriaController",
+    "Method": "Lista",
+    "RelativePath": "api/Categoria/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.CategoriaController",
+    "Method": "Obtener",
+    "RelativePath": "api/Categoria/Obtener/{IdCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ColoreController",
+    "Method": "Editar",
+    "RelativePath": "api/Colore/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Colore",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ColoreController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Colore/Eliminar/{IdColor}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdColor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ColoreController",
+    "Method": "Guardar",
+    "RelativePath": "api/Colore/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Colore",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ColoreController",
+    "Method": "Lista",
+    "RelativePath": "api/Colore/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ColoreController",
+    "Method": "Obtener",
+    "RelativePath": "api/Colore/Obtener/{IdColor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdColor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioController",
+    "Method": "Editar",
+    "RelativePath": "api/Inventario/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Inventario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Inventario/Eliminar/{IdInventario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdInventario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioController",
+    "Method": "Guardar",
+    "RelativePath": "api/Inventario/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Inventario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioController",
+    "Method": "Lista",
+    "RelativePath": "api/Inventario/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioController",
+    "Method": "Obtener",
+    "RelativePath": "api/Inventario/Obtener/{IdInventario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdInventario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioAlmacenProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/InventarioAlmacenProducto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.InventarioAlmacenProducto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioAlmacenProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/InventarioAlmacenProducto/Eliminar/{IdInventarioAlmacenProducto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdInventarioAlmacenProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioAlmacenProductoController",
+    "Method": "Guardar",
+    "RelativePath": "api/InventarioAlmacenProducto/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.InventarioAlmacenProducto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioAlmacenProductoController",
+    "Method": "Lista",
+    "RelativePath": "api/InventarioAlmacenProducto/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.InventarioAlmacenProductoController",
+    "Method": "Obtener",
+    "RelativePath": "api/InventarioAlmacenProducto/Obtener/{IdInventarioAlmacenProducto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdInventarioAlmacenProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.LoginController",
+    "Method": "Lista",
+    "RelativePath": "api/Login/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.PermisoController",
+    "Method": "Editar",
+    "RelativePath": "api/Permiso/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Permiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.PermisoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Permiso/Eliminar/{idPermiso}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.PermisoController",
+    "Method": "Guardar",
+    "RelativePath": "api/Permiso/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Permiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.PermisoController",
+    "Method": "Lista",
+    "RelativePath": "api/Permiso/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.PermisoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Permiso/Obtener/{IdPermiso}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/Producto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Producto/Eliminar/{IdProducto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ProductoController",
+    "Method": "Guardar",
+    "RelativePath": "api/Producto/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ProductoController",
+    "Method": "Lista",
+    "RelativePath": "api/Producto/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.ProductoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Producto/Obtener/{IdProducto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RoleController",
+    "Method": "Editar",
+    "RelativePath": "api/Role/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RoleController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Role/Eliminar/{IdRol}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RoleController",
+    "Method": "Guardar",
+    "RelativePath": "api/Role/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RoleController",
+    "Method": "Lista",
+    "RelativePath": "api/Role/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RoleController",
+    "Method": "Obtener",
+    "RelativePath": "api/Role/Obtener/{IdRol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RolPermisoController",
+    "Method": "Editar",
+    "RelativePath": "api/RolPermiso/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.RolPermiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RolPermisoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/RolPermiso/Eliminar/{IdRolPermiso}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdRolPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RolPermisoController",
+    "Method": "Guardar",
+    "RelativePath": "api/RolPermiso/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.RolPermiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RolPermisoController",
+    "Method": "Lista",
+    "RelativePath": "api/RolPermiso/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.RolPermisoController",
+    "Method": "Obtener",
+    "RelativePath": "api/RolPermiso/Obtener/{IdRolPermiso}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdRolPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.SubColorController",
+    "Method": "Editar",
+    "RelativePath": "api/SubColor/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.SubColor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.SubColorController",
+    "Method": "Eliminar",
+    "RelativePath": "api/SubColor/Eliminar/{IdSubColor}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdSubColor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.SubColorController",
+    "Method": "Guardar",
+    "RelativePath": "api/SubColor/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.SubColor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.SubColorController",
+    "Method": "Lista",
+    "RelativePath": "api/SubColor/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.SubColorController",
+    "Method": "Obtener",
+    "RelativePath": "api/SubColor/Obtener/{IdSubColor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdSubColor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.TipoProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/TipoProducto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.TipoProducto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.TipoProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/TipoProducto/Eliminar/{IdTipoProducto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTipoProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.TipoProductoController",
+    "Method": "Guardar",
+    "RelativePath": "api/TipoProducto/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.TipoProducto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.TipoProductoController",
+    "Method": "Lista",
+    "RelativePath": "api/TipoProducto/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.TipoProductoController",
+    "Method": "Obtener",
+    "RelativePath": "api/TipoProducto/Obtener/{IdTipoProducto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTipoProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.UsuarioController",
+    "Method": "Editar",
+    "RelativePath": "api/Usuario/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.UsuarioController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Usuario/Eliminar/{idUsuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.UsuarioController",
+    "Method": "Guardar",
+    "RelativePath": "api/Usuario/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Javier_Inventario.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.UsuarioController",
+    "Method": "Lista",
+    "RelativePath": "api/Usuario/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Javier_Inventario.Controllers.UsuarioController",
+    "Method": "Obtener",
+    "RelativePath": "api/Usuario/Obtener/{IdUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
